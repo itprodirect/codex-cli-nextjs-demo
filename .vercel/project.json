@@ -1,7 +1,11 @@
 {
-  "buildCommand": "turbo run build --filter=next.js",
-  "installCommand": "pnpm install --frozen-lockfile",
-  "outputDirectory": ".next",
-  "framework": "nextjs",
-  "packageManager": "pnpm"
+  "projectId": "codex-cli-nextjs-demo-app-router-server",
+  "orgId": "nick-fergusons-projects-301cfd45",
+  "settings": {
+    "installCommand": "pnpm install",
+    "buildCommand": "pnpm run build",
+    "outputDirectory": ".next",
+    "framework": "nextjs",
+    "packageManager": "pnpm"
+  }
 }
