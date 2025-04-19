@@ -1,0 +1,7 @@
+{
+  "buildCommand": "turbo run build --filter=next.js",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "packageManager": "pnpm"
+}
